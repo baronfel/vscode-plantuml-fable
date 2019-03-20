@@ -14,5 +14,12 @@ module.exports = {
     // path to output directory. You'll end up with one js file per input fs file in this directory
     outDir: resolve("build"),
     // only compile files that are referenced in the fsproj,
-    allFiles: false
+    allFiles: false,
+    // babel options to run as part of the pipeline
+    babel: {
+        plugins: [
+            // transform Fable's default module output to node-compatible commonjs modules
+            "@babel/plugin-transform-modules-commonjs"
+        ]
+      },
 };

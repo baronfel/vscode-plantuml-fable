@@ -1,5 +1,4 @@
-﻿namespace VSCode.PlantUML.Fable
+﻿module VSCode.PlantUML.Fable
 
-module Say =
-    let hello name =
-        printfn "Hello %s" name
+let activate _context = 
+    printfn "VSCode.PlantUML.Fable activated"
