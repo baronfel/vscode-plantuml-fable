@@ -1,0 +1,12 @@
+source https://www.nuget.org/api/v2  
+storage: none  
+framework: netstandard2.0
+
+nuget FSharp.Core redirects:force  
+nuget Fable.Import.Node < 2.0
+nuget Fable.Import.Browser < 2.0
+
+github ionide/ionide-vscode-helpers src/Fable.Import.VSCode.fs
+github ionide/ionide-vscode-helpers src/Helpers.fs
+github ionide/ionide-vscode-helpers src/Fable.Import.Axios.fs
+github ionide/ionide-vscode-helpers src/Fable.Import.ws.fs
