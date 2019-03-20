@@ -10,14 +10,26 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onLanguage:plantuml"
 	],
 	"main": "./build/extension.js",
 	"contributes": {
+		"languages": [
+			{
+				"id": "plantuml",
+				"aliases": [
+					"PlantUML"
+				],
+				"extensions": [
+					".plantuml"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "plantuml.preview",
+				"title": "Preview PlantUML"
 			}
 		]
 	},
