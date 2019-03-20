@@ -20,6 +20,7 @@
       <Paket>True</Paket>
       <Link>paket-files/Fable.Import.ws.fs</Link>
     </Compile>
+    <Compile Include="Bindings/Fable.Import.Node.PlantUML.fs" />
     <Compile Include="Previewer.fs" />
     <Compile Include="Extension.fs" />
   </ItemGroup>

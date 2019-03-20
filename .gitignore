@@ -6,3 +6,4 @@ src/obj
 build
 .paket
 paket-files
+.ionide

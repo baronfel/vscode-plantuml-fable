@@ -1,6 +1,7 @@
 FSharp.Core
 Fable.Import.Node
 Fable.Import.Browser
+Fable.Promise
 
 File: Fable.Import.VSCode.fs
 File: Helpers.fs
