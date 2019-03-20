@@ -1,4 +1,7 @@
-﻿module VSCode.PlantUML.Fable
+﻿module VSCode.PlantUML.Fable.Extension
 
-let activate _context = 
+open VSCode.PlantUML.Fable
+
+let activate context = 
+    Previewer.activate context
     printfn "VSCode.PlantUML.Fable activated"

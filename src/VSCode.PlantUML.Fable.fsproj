@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Previewer.fs" />
     <Compile Include="Extension.fs" />
   </ItemGroup>
 
